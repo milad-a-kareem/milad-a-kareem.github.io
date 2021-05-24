@@ -2,3 +2,9 @@ body{
     height: 100%;
     background-color: #eeeeee;
 }
+
+h1{
+    width: 100%;
+    line-height:100%;
+    text-align: center
+}
