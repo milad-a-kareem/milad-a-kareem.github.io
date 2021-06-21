@@ -1,0 +1,190 @@
+section#about-section.active{
+    height: fit-content;
+    opacity: 1;
+    transition: opacity 0.9s;
+}
+section#about-section{
+    position: relative;
+}
+
+section#about-section .title-section{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+
+section#about-section .title-section h1, h1 span{
+    font-family: Roboto-Bold;
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+section#about-section .title-section span.title-bg{
+    font-family: Roboto-Bold;
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.07);
+    text-align: center;
+}
+
+section#about-section .main-content .container{
+    max-width: calc(100% - 350px);
+    margin: 0 auto;
+}
+
+.p-ul{
+    padding: 0;
+    margin: 13px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.p-li{
+    list-style: none;
+    margin: 13px 0;
+}
+
+.p-li span{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.p-li span:first-child{
+    color:#bbb;
+}
+.p-li span:last-child{
+    color:#fff;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #252525;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.box h3{
+    font-family: Roboto-Bold;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    color:#ffb400;
+}
+
+.box h3:after {
+    content: '+';
+    position: absolute;
+    right: -24px;
+    font-size: 33px;
+    font-weight: 300;
+    top: 2px;
+}
+.box p{
+    position: relative!important;
+    padding-inline-start: 45px;
+    text-transform: uppercase;
+}
+
+.box p span{
+    display: block!important;
+}
+
+
+.box p:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background: #777;
+}
+
+hr{
+    border: 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border-top: 1px solid #252525;
+    margin: 70px auto 55px;
+    max-width: 40%;
+}
+
+.e-box{
+    list-style: none;
+    position: relative;
+    border-left: 1px solid #252525;
+    width: 100%;
+    margin-block-end: 50px;
+    padding-inline-start: 40px;
+
+}
+.e-box .icon{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    background: #ffb400;
+    border-radius: 50%;
+}
+.e-box .icon i{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.e-box .duration{
+    position: relative;
+    font-size: 13px;
+    background: #252525;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 5px 10px;
+    top: -15px;
+    text-align: center;
+    color: #bbb;
+    text-transform: uppercase;
+
+}
+.e-box .title{
+    text-transform: uppercase;
+    line-height: 21px;
+    font-size:18px;
+    margin: 7px 0 10px;
+}
+.e-box .title span{
+    color: #bbb;
+}
+
+.e-box .detail{
+    font-size: 14px;
+    color: #bbb;
+    line-height:1.5;
+}

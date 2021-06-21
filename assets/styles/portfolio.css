@@ -1,0 +1,170 @@
+
+section#portfolio-section.active{
+    height: fit-content;
+    opacity: 1;
+    transition:opacity 0.9s;
+}
+section#portfolio-section{
+    position: relative;
+}
+
+section#portfolio-section .title-section{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+
+section#portfolio-section .title-section h1, h1 span{
+    font-family: Roboto-Bold;
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+section#portfolio-section .title-section span.title-bg{
+    font-family: Roboto-Bold;
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.07);
+    text-align: center;
+}
+
+section#portfolio-section .main-content .container{
+    max-width: calc(100% - 350px);
+    margin: 0 auto;
+}
+
+
+.port-box{
+    width:660px;
+    height:574px;
+    padding: 30px;
+    border-radius: 27px;
+    background: #2b2a2a;
+}
+
+.port-box .title{
+    text-transform: uppercase;
+    margin-block-end: 15px;
+    color: #ffb400;
+    text-align:center;
+}
+.port-box img{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-block: 10px;
+}
+.feature .feature-text{
+    font-size: 15px;
+    font-family: Roboto-Regular;
+    font-weight: normal;
+
+}
+.feature i{
+    padding-inline-end: 10px;
+    font-size: 15px;
+}
+
+.port-cont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #2b2a2a;
+    border-radius: 7px;
+}
+
+.port-cont .port-content{
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #ffb400;
+    transition:  0.5s;
+
+}
+.port-cont:hover .port-content{
+    width: 100%;
+    transition: 0.5s;
+
+}
+.port-cont .port-content h3{
+    min-width: fit-content;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.port-cont .port-img{
+    border-radius:7px;
+}
+
+.port-cont:hover{
+    cursor: pointer;
+}
+
+#port-detail{
+    visibility: visible;
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    transition: opacity 0.5s;
+    z-index: 10000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#port-detail.close{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+}
+#port-detail svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    fill: #bbb;
+    margin-block-start: 30px;
+    margin-inline-end: 60px;
+}
+#port-detail svg:hover{
+    cursor: pointer;
+}

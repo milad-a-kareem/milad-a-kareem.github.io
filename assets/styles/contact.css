@@ -1,0 +1,140 @@
+section#contact-section.active{
+    height: fit-content;
+    opacity: 1;
+    transition:opacity 0.9s;
+}
+
+section#contact-section .title-section{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+}
+
+section#contact-section .title-section h1, h1 span{
+    font-family: Roboto-Bold;
+    font-size: 56px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+section#contact-section .title-section span.title-bg{
+    font-family: Roboto-Bold;
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.07);
+    text-align: center;
+}
+
+section#contact-section .main-content .container{
+    max-width: calc(100% - 350px);
+    margin: 0 auto;
+}
+
+
+.contact-left p{
+    margin-block-end: 30px;
+    position: relative;
+}
+.contact-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-block-end: 20px;
+}
+.contact-cont:hover{
+    cursor: pointer;
+}
+
+.contact-cont i{
+    font-size: 40px;
+    color: #ffb400;
+}
+
+.abc{
+    padding-inline-start: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.abc p{
+    margin: 0;
+}
+
+.abc p:nth-child(1){
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.abc p:nth-child(2){
+    color: #fff;
+    font-family: Roboto-Bold;
+    font-weight: bold;
+}
+
+
+.contact-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contact-right img{
+    width: 100%;
+}
+
+.so-cont:hover{
+    background: #2b2a2a;
+    cursor: pointer;
+}
+
+.so-cont{
+    border: 1px solid #2b2a2a;
+    border-radius: 7px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-block-end: 30px;
+}
+
+.so-cont i{
+    font-size: 70px;
+    color: #ffb400;
+    padding: 10px;
+}
+
+.so-cont p{
+    font-family: Roboto-Bold;
+}
+
+.so-cont p.t{
+    margin-block-end: 7px;
+    text-transform: uppercase ;
+    color: #ffb400 ;
+    
+}
+
+.contact-text{
+    text-align:center; 
+    margin-block-end: 30px;
+    font-size: 21px;
+}

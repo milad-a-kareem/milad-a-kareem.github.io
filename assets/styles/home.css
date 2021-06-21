@@ -1,0 +1,212 @@
+section#home-section.active{
+    height: 100vh; 
+    opacity: 1;
+    transition:opacity 0.9s;
+}
+section#home-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section#home-section #trapezoid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 100vh solid #FFB400;
+    border-left: 0px solid transparent;
+    border-right: 15vw solid transparent;
+    height: 0;
+    width: 26vw;
+}
+
+section#home-section #profile-photo{
+    background: #030303;
+    background-image: url("../../milad-colored.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: calc(100vh - 80px);
+    width: 33vw;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 30px;
+    box-shadow: 0 0 7px rgb(0 0 0 / 90%);
+}
+
+section#home-section div#home-content{
+    width: 100vw;
+    padding-left: calc(43vw - 0px);
+    padding-right: calc(11vw - 0px);
+    position: absolute;
+    left: 0;
+    right:0;
+    height: calc(100vh - 400px);
+    bottom: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 200px;
+    opacity: 1;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+section#home-section div#home-content h1 {
+    font-size: 49px;
+    line-height: 56px;
+    font-family: Roboto-Bold;
+    margin: 18px 0 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+    color: #ffb400;
+    text-transform: uppercase;
+}
+section#home-section div#home-content h1 span{
+    display:block; 
+    color:#fff; 
+    font-size:41px; 
+    text-align:start;
+}
+
+section#home-section div#home-content h1:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 28.5px;
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+    background: #ffb400;
+    color: #ffb400;
+}
+
+section#home-section div#home-content p {
+    text-align: justify;
+    line-height: 2.1;
+}
+section#home-section div#home-content #home-about-btn{
+    height: 50px;
+    border: 1px solid #ffb400;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+section#home-section div#home-content #home-about-btn:hover{
+    background: #ffb400;
+}
+section#home-section div#home-content #home-about-btn:hover h4{
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 1255px) {
+    section#home-section div#home-content h1 {
+        padding-left: 0;
+    }
+    section#home-section div#home-content h1:before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    section#home-section div#home-content h1 {
+        font-size: 44px;
+    }
+    section#home-section div#home-content h1 span{
+        font-size: 38px;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 990px) {
+    section#home-section.active {
+        height: fit-content !important;
+        margin-block-end: 170px;
+    }
+    section#home-section #trapezoid {
+        display: none;
+    }
+    
+    section#home-section #profile-photo{
+        background: #030303;
+        background-image: url("../../milad-colored.png");
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        height: 300px;
+        width: 300px;
+        position: static;
+        border-radius: 50%;
+        border: 7px solid #2b2a2a;
+        box-shadow: none;
+        margin-block: 30px;
+    }
+    
+    section#home-section div#home-content{
+        width: 100vw;
+        padding-inline: 30px;
+        position: static;
+        height: fit-content;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    section#home-section div#home-content h1 {
+        font-size: 44px;
+        line-height: 53px;
+        font-family: Roboto-Bold;
+        margin: 18px 0 10px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        color: #ffb400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    section#home-section div#home-content h1 span{
+        display:block; 
+        color:#fff; 
+        font-size:41px; 
+        text-align:start;
+    }
+    
+    
+    section#home-section div#home-content p {
+        width: 70%;
+        text-align: justify;
+        line-height: 2.1;
+    }
+    section#home-section div#home-content #home-about-btn{
+        height: 50px;
+        border: 1px solid #ffb400;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    section#home-section div#home-content #home-about-btn:hover{
+        background: #ffb400;
+    }
+    section#home-section div#home-content #home-about-btn:hover h4{
+        color: #fff;
+    }
+    
+
+}
