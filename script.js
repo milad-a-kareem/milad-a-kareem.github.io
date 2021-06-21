@@ -1,4 +1,4 @@
-// alert('Website is currently under construction. some features are not ready yet. Cooming soon.')
+alert('Website is currently under construction. some features are not ready yet. Cooming soon.')
 
 const sections = document.querySelectorAll('section')
 const buttons = document.querySelectorAll('li.icon-box')
