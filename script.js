@@ -1,4 +1,4 @@
-alert('Website is currently under construction. some features are not ready yet. Cooming soon.')
+// alert('Website is currently under construction. some features are not ready yet. Cooming soon.')
 
 const sections = document.querySelectorAll('section')
 const buttons = document.querySelectorAll('li.icon-box')
@@ -23,6 +23,7 @@ function changeSection(){
             sec.classList.remove('active')
         }
     })
+    window.scrollTo(0, 0);
 }
 
 function changeActiveBTN(){

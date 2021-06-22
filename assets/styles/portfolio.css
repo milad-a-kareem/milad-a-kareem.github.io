@@ -168,3 +168,115 @@ section#portfolio-section .main-content .container{
 #port-detail svg:hover{
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 1212px){
+    section#portfolio-section .main-content .container{
+        max-width: calc(100% - 150px) !important;
+    }
+}
+
+/* Tablet */
+@media only screen and (max-width: 990px){
+    section#portfolio-section.active{
+        margin-block-end: 110px;
+    }
+    section#portfolio-section .main-content .container{
+        max-width: calc(100% - 50px) !important;
+    }
+    section#portfolio-section .main-content .container .row .col-4{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #port-detail{
+        background: #2b2a2a;
+    }
+    #port-detail-cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: #2b2a2a;
+    }
+    .port-box{
+        min-width:70vw;
+        height:100vh;
+        border-radius: 0;
+        background: #2b2a2a;
+    }
+    #port-detail svg{
+        margin-block-start: 30px;
+        margin-inline-end: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+
+    .port-box{
+        min-width:30vw;
+        width: 90vw;
+        height:100vh;
+        border-radius: 0;
+        background: #2b2a2a;
+        padding-inline-start: 10px;
+    }
+
+    .port-box .title{
+        text-align: start;
+    }
+
+    .port-box .row .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    #port-detail svg{
+        width:20px;
+        height:20px;
+        margin-block-start: 35px;
+        margin-inline-end: 10px;
+    }
+
+}
+
+
+/* mobile */
+@media only screen and (max-width: 550px){
+    section#portfolio-section .main-content .container .row .col-6 h1{
+        font-size: 21px;
+    }
+    section#portfolio-section .title-section{
+        height: fit-content;
+        padding-block: 10px;
+        background: #2b2a2a;
+        margin-block-end: 30px;
+    }
+    
+    section#portfolio-section .title-section h1, section#portfolio-section .title-section h1 span{
+        font-family: Roboto-Bold;
+        font-size: 23px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }
+    
+    section#portfolio-section .title-section span.title-bg{
+        display: none;
+    }
+
+
+    section#portfolio-section .main-content .container .row .col-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+}

@@ -398,3 +398,96 @@ section{
         background: #2b2a2a;
     }
 }
+/* Mobile */
+@media only screen and (max-width: 550px) {
+    .header {
+        position: fixed;
+        right: auto;
+        left: auto;
+        bottom: 0px;
+        top: auto;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: fit-content;
+        z-index: 10000000;
+    }
+    
+    .header ul.icon-menu{
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background: #2b2a2a;
+        overflow: hidden;
+    }
+
+    .header ul.icon-menu li.icon-box{
+        height: fit-content;
+        width: fit-content;
+        list-style: none;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        border-radius: 0;
+        background: #2b2a2a;
+        color:#fff;
+        cursor: pointer;
+        padding: 10px;
+        text-transform: capitalize;
+    
+    }
+    
+    .header ul.icon-menu li.icon-box i{
+        line-height: 25px;
+        width: 25px;
+        font-size: 15px;
+        pointer-events: none;
+        text-align: center;
+        color:#fff;
+    
+    }
+    .header ul.icon-menu li.icon-box a{
+        width: fit-content;
+        text-decoration: none;
+        z-index:1;
+    }
+    .header ul.icon-menu li.icon-box a h4{
+        font-size:13px;
+        font-weight: normal;
+    }
+
+    /* li hover */
+    .header ul.icon-menu li.icon-box:hover{
+        height: fit-content;
+        width: fit-content;
+        list-style: none;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        border-radius: 0;
+        background: #2b2a2a;
+        padding: 10px;
+    }
+    
+    .header ul.icon-menu li.icon-box:hover a h4, .header ul.icon-menu li.icon-box:hover i{
+        color: #ffb400;
+    }
+
+    .header ul.icon-menu li.icon-box.active a h4, .header ul.icon-menu li.icon-box.active i{
+        color: #ffb400;
+        background: #2b2a2a;
+    }
+    .header ul.icon-menu li.icon-box.active{
+        background: #2b2a2a;
+    }
+}

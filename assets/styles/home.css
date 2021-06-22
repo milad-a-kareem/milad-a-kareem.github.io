@@ -210,3 +210,87 @@ section#home-section div#home-content #home-about-btn:hover h4{
     
 
 }
+
+@media only screen and (max-width: 990px) {
+    section#home-section div#home-content h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    section#home-section div#home-content h1 span{
+        font-size:33px; 
+    }
+    section#home-section div#home-content p {
+        width: 80%;
+        text-align: justify;
+        line-height: 1.7;
+    }
+}
+
+@media only screen and (max-width: 647px) {
+    section#home-section div#home-content h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    section#home-section div#home-content h1 span{
+        font-size:29px; 
+    }
+    section#home-section div#home-content p {
+        width: 90%;
+        text-align: justify;
+        line-height: 1.7;
+    }
+}
+@media only screen and (max-width: 455px) {
+    section#home-section #profile-photo{
+        height: 250px;
+        width: 250px;
+    }
+    section#home-section div#home-content h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    section#home-section div#home-content h1 span{
+        font-size:25px; 
+    }
+    section#home-section div#home-content p {
+        width: 95%;
+        text-align: justify;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 400px) {
+    section#home-section #profile-photo{
+        height: 200px;
+        width: 200px;
+    }
+    section#home-section div#home-content h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    section#home-section div#home-content h1 span{
+        font-size:20px; 
+    }
+    section#home-section div#home-content p {
+        width: 97%;
+        text-align: justify;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 325px) {
+    section#home-section #profile-photo{
+        height: 170px;
+        width: 170px;
+    }
+    section#home-section div#home-content h1 {
+        font-size: 23px;
+        line-height: 27px;
+    }
+    section#home-section div#home-content h1 span{
+        font-size:19px; 
+    }
+    section#home-section div#home-content p {
+        width: 98%;
+        text-align: justify;
+        line-height: 1.5;
+    }
+}

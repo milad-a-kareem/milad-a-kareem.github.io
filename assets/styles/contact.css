@@ -138,3 +138,83 @@ section#contact-section .main-content .container{
     margin-block-end: 30px;
     font-size: 21px;
 }
+
+
+
+@media only screen and (max-width: 1045px){
+    section#contact-section .main-content .container{
+        max-width: calc(100% - 350px);
+        margin: 0 auto;
+    }
+    section#contact-section .main-content .container .row .col-3{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    section#contact-section.active{
+        margin-block-end: 100px;
+    }
+    section#contact-section .main-content .container{
+        max-width: calc(100% - 50px) !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    section#contact-section .main-content .container h4.contact-text{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    section#contact-section .main-content .container h4.contact-text{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    section#contact-section .main-content .container .row .col-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 550px){
+    section#contact-section .main-content .container .row .col-6 h1{
+        font-size: 21px;
+    }
+    section#contact-section .title-section{
+        height: fit-content;
+        padding-block: 10px;
+        background: #2b2a2a;
+        margin-block-end: 30px;
+    }
+    
+    section#contact-section .title-section h1, section#contact-section .title-section h1 span{
+        font-family: Roboto-Bold;
+        font-size: 23px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }
+    
+    section#contact-section .title-section span.title-bg{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    section#contact-section .main-content .container .row .col-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+}

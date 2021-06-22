@@ -188,3 +188,111 @@ hr{
     color: #bbb;
     line-height:1.5;
 }
+
+@media only screen and (max-width: 1255px) {
+    .p-li{
+        list-style: none;
+        margin: 13px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+/* Tablet */
+@media only screen and (max-width: 990px) {
+    section#about-section.active{
+        padding-block-end: 110px;
+    }
+
+    section#about-section .main-content .container .row .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    section#about-section .main-content .container .row .col-6 .row .col-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0;
+    }
+    section#about-section .main-content .container .row .col-6 .row .col-6:nth-child(1){
+        padding-inline-end: 15px;
+    }
+    section#about-section .main-content .container .row .col-6 .row .col-6:nth-child(2){
+        padding-inline-start: 15px;
+    }
+    section#about-section .main-content .container .row .col-6 .row .col-6:nth-child(3){
+        padding-inline-end: 15px;
+    }
+    section#about-section .main-content .container .row .col-6 .row .col-6:nth-child(4){
+        padding-inline-start: 15px;
+    }
+
+    .row .col-6 a.custom-btn{
+        margin-top: 0;
+        margin-block-end: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 880px) {
+    .row .col-3{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .row .col-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    section#about-section div.main-content div.container{
+        max-width: calc(100% - 70px) !important;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .box p:before {
+        display: none;
+    }
+    .box p{
+        padding-inline-start: 0;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    section#about-section .main-content .container .row .col-6 h1{
+        font-size: 21px;
+    }
+    section#about-section .title-section{
+        height: fit-content;
+        padding-block: 10px;
+        background: #2b2a2a;
+        margin-block-end: 30px;
+    }
+    
+    section#about-section .title-section h1, section#about-section .title-section h1 span{
+        font-family: Roboto-Bold;
+        font-size: 23px;
+        font-weight: 900;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }
+    
+    section#about-section .title-section span.title-bg{
+        display: none;
+    }
+}
+
