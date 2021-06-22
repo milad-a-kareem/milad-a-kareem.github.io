@@ -140,6 +140,7 @@ section#home-section div#home-content #home-about-btn:hover h4{
     
     section#home-section #profile-photo{
         background: #030303;
+        background-image: url("../../milad2.png");
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover;
