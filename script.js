@@ -1,5 +1,5 @@
 // alert('Website is currently under construction. some features are not ready yet. Cooming soon.')
-
+let myStorage = window.localStorage
 const sections = document.querySelectorAll('section')
 const buttons = document.querySelectorAll('li.icon-box')
 
@@ -7,6 +7,15 @@ const portDetaiil = document.getElementById('port-detail')
 const header = document.querySelector('header')
 
 let selected = 'home'
+
+if (myStorage.getItem('selected')){
+    selected = myStorage.getItem('selected')
+    changeActiveBTN()
+    changeSection()
+}
+else{
+    myStorage.setItem('selected', 'home')
+}
 
 function changePage(p){
     (selected != p)? selected = p : null;
@@ -18,6 +27,7 @@ function changeSection(){
     sections.forEach(sec=>{
         if(sec.id.split('-')[0] == selected){
             sec.classList.add('active')
+            myStorage.setItem('selected', selected)
         }
         else{
             sec.classList.remove('active')
