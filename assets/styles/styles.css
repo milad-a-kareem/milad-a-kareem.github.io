@@ -265,7 +265,7 @@ section{
     content: var(--percent) + "%";
 }
 
-#progress-svg{
+.progress-svg{
     z-index: 1000;
     position: relative;
     width: 130px;
@@ -275,7 +275,7 @@ section{
     
 }
 
-#progress-svg circle{
+.progress-svg circle{
     cx:60;
     cy:60;
     r: 60;
@@ -289,7 +289,7 @@ section{
     transform: translate(5px,5px);
 
 }
-#progress-svg circle:nth-child(2){
+.progress-svg circle:nth-child(2){
     --c: calc( calc(2*3.14*59));
     stroke-dasharray: var(--c);
     stroke-dashoffset: calc(var(--c) - (var(--c)* var(--percent))/100); 
