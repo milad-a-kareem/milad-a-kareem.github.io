@@ -106,6 +106,22 @@ const portfolios = [
         tools: 'Visual Basics, MS Access Database',
         link: '#',
     },
+    {
+        img_url: 'todo.png',
+        title: 'MyToDo (React)',
+        project: 'React Web App',
+        client: 'World',
+        tools: 'JS, CSS, React, LocalStorage',
+        link: 'https://miladkareem.com/react-todo',
+    },
+    {
+        img_url: 'todo.png',
+        title: 'MyToDo (Angular)',
+        project: 'Angular Web App',
+        client: 'World',
+        tools: 'TS, CSS, Angular, LocalStorage',
+        link: 'https://miladkareem.com/angular-todo',
+    },
 ]
 
 function renderPorts(){
