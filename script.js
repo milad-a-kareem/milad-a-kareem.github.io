@@ -51,6 +51,14 @@ function changeActiveBTN(){
 
 const portfolios = [
     {
+        img_url: 'golden-future-school.png',
+        title: 'G. F. S. Website',
+        project: 'School Website',
+        client: 'Golden Futur School',
+        tools: 'HTML, CSS, JavaScript, PHP, Wordpress, MySQL, Elementor',
+        link: 'https://goldenfuture.school',
+    },
+    {
         img_url: 'true-sys.jpg',
         title: 'True Contact System',
         project: 'Website',
