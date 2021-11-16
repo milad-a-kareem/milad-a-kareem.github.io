@@ -51,6 +51,14 @@ function changeActiveBTN(){
 
 const portfolios = [
     {
+        img_url: 'kingsverhoomo.png',
+        title: "King's Verhoomo Website",
+        project: 'Business Website',
+        client: "King's Verhoomo Finland",
+        tools: 'HTML, CSS, JavaScript, PHP, Wordpress, MySQL, Elementor',
+        link: 'https://kingsverhoomo.fi',
+    },
+    {
         img_url: 'golden-future-school.png',
         title: 'G. F. S. Website',
         project: 'School Website',
