@@ -51,7 +51,7 @@ function changeActiveBTN(){
 
 const portfolios = [
     {
-        img_url: 'school.png',
+        img_url: 'placeholder.svg',
         title: 'Injaz Platform',
         project: 'Government Web Platform',
         client: 'Iraqi Government (TTech)',
@@ -59,7 +59,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'school.png',
+        img_url: 'placeholder.svg',
         title: 'Naftcom',
         project: 'Oil & Gas Coupon Management',
         client: 'Iraqi Government (TTech)',
@@ -67,7 +67,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'school.png',
+        img_url: 'placeholder.svg',
         title: 'Health Insurance System',
         project: 'Government Web Platform',
         client: 'Iraqi Government (TTech)',
@@ -75,7 +75,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'market.png',
+        img_url: 'placeholder.svg',
         title: 'FIB Corporate',
         project: 'Corporate Banking Platform',
         client: 'First Iraqi Bank (Gateway ICT)',
@@ -83,7 +83,7 @@ const portfolios = [
         link: 'https://fib.iq',
     },
     {
-        img_url: 'market.png',
+        img_url: 'placeholder.svg',
         title: 'FIB Business',
         project: 'Business Banking Platform',
         client: 'First Iraqi Bank (Gateway ICT)',
@@ -91,7 +91,7 @@ const portfolios = [
         link: 'https://fib.iq',
     },
     {
-        img_url: 'market.png',
+        img_url: 'placeholder.svg',
         title: 'FIB Backoffice & Billing',
         project: 'Internal Banking Tools',
         client: 'First Iraqi Bank (Gateway ICT)',
@@ -99,7 +99,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'kingsverhoomo.png',
+        img_url: 'placeholder.svg',
         title: 'FIB Public Website',
         project: 'Marketing Website',
         client: 'First Iraqi Bank (Gateway ICT)',
@@ -107,7 +107,7 @@ const portfolios = [
         link: 'https://fib.iq',
     },
     {
-        img_url: 'todo.png',
+        img_url: 'placeholder.svg',
         title: 'KaizenUI & FIB-UI',
         project: 'Component Libraries',
         client: 'Gateway ICT',
@@ -115,7 +115,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'todo.png',
+        img_url: 'placeholder.svg',
         title: 'ClubHub & Affinitus',
         project: 'Web Portals',
         client: 'C-Sunshine, Bratislava',
@@ -123,7 +123,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'school.png',
+        img_url: 'placeholder.svg',
         title: 'QDental Clinic Platform',
         project: 'Clinic Management Web App',
         client: 'QDental Clinic',
@@ -219,7 +219,7 @@ const portfolios = [
         link: 'https://miladkareem.com/angular-todo',
     },
     {
-        img_url: 'school.png',
+        img_url: 'placeholder.svg',
         title: 'Financial Management App',
         project: 'Personal Web App',
         client: 'Personal',
@@ -227,7 +227,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'true-ios.png',
+        img_url: 'placeholder.svg',
         title: 'Contacts Manager',
         project: 'Cross-Platform Mobile App',
         client: 'Personal',
@@ -235,7 +235,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'market.png',
+        img_url: 'placeholder.svg',
         title: 'POS System',
         project: 'Desktop App',
         client: 'Personal',
@@ -243,7 +243,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'school.png',
+        img_url: 'placeholder.svg',
         title: 'MHS IoT Heating',
         project: 'IoT System',
         client: 'Personal',
@@ -251,7 +251,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'todo.png',
+        img_url: 'placeholder.svg',
         title: 'Twitter Clone',
         project: 'Bootcamp Web App',
         client: 'Rwanga WeCode Bootcamp',
@@ -259,7 +259,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'todo.png',
+        img_url: 'placeholder.svg',
         title: 'Money Manager',
         project: 'Bootcamp Web App',
         client: 'Rwanga WeCode Bootcamp',
@@ -267,7 +267,7 @@ const portfolios = [
         link: '#',
     },
     {
-        img_url: 'todo.png',
+        img_url: 'placeholder.svg',
         title: 'Kurdish Calendar',
         project: 'Bootcamp Web App',
         client: 'Rwanga WeCode Bootcamp',
